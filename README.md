@@ -16,3 +16,6 @@ Componentes Necesarios:
     Un potenciometro (par la regulacion del tiempo del semaforo peatonal)
     Resistencias (para los LEDs y el pulsador)
     Cables de conexión
+
+    ![imagen](https://github.com/user-attachments/assets/06f7c508-b863-4134-a0e0-58f47a554f33)
+
