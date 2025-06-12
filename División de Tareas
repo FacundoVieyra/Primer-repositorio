@@ -1,0 +1,21 @@
+Santiago Martin: 
+Configuración y puesta en marcha del sistema
+
+Definir y configurar pines (entradas y salidas).
+Implementar setup().
+Inicializar comunicación serial.
+
+Fernando Pérez: 
+Gestión de entradas y detección de eventos
+
+Configurar botón peatonal 
+Configurar Potenciómentro
+Registrar eventos.
+
+Facundo vieyra: 
+Control lógico y gestión de estados
+
+Configurar los estados del semáforo.
+Manejar temporizadores con millis() para los cambios de estado.
+Controlar los LEDs según el estado actual.
+Integrar la lógica para responder al contador de peatones.
