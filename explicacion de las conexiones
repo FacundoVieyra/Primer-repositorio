@@ -10,8 +10,6 @@ Esto crea una diferencia de voltaje constante de 0 a 5V entre los extremos del p
 Esta pata entrega un voltaje intermedio entre 0 y 5V, y el arduino lee este voltaje como un numero entre 0 y 1023.
 
 Conexiones del Boton:
-. Un pin del boton va a D8 del arduino:
-Este pin digital detecta si el boton esta presionado o no.
-Cuando el boton es presionado , el pin recibe una señal baja (LOW), indicando al arduino que el boton fue presionado.
-. Otro pin a GND: 
-Esto hace que al presionar el boton, se conecte a tierra, y el pin D8 del arduino reciba un LOW.
+. Un pin del boton va a D7 del arduino y el otro pin a 5V:
+Esto hace que cuando se presione el boton, el pin D7 reciba 5V y el arduino lea HIGH.
+Cuando no se presione el boton, el pin D7 este en 0V(LOW)
