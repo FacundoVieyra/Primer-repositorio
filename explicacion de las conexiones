@@ -1,1 +1,17 @@
+Conexiones de LEDS: 
+. Los leds estan conectados al pin digital D2 al D7 del arduino al ánodo (+) del LED, esto hace que cuando el pin este en HIGH circule una corriente por el led y lo enciende.
+. La conexion de la resistencia con el led es para que la resistencia limite la corriente que pasa por el LED, ya que sino el led recibiría demasiada corriente desde el arduino y se quemaría.
+. Y por ultimo el cátodo (-) del LED va a GND porque esto hace se cierre el circuito y pueda encender el LED.
 
+Conexiones del Potenciómetro: 
+. La pata izquierda va a GND y la derecha a 5V:
+Esto crea una diferencia de voltaje constante de 0 a 5V entre los extremos del potenciómetro.
+. La pata del medio va al pin A0:
+Esta pata entrega un voltaje intermedio entre 0 y 5V, y el arduino lee este voltaje como un numero entre 0 y 1023.
+
+Conexiones del Boton:
+. Un pin del boton va a D8 del arduino:
+Este pin digital detecta si el boton esta presionado o no.
+Cuando el boton es presionado , el pin recibe una señal baja (LOW), indicando al arduino que el boton fue presionado.
+. Otro pin a GND: 
+Esto hace que al presionar el boton, se conecte a tierra, y el pin D8 del arduino reciba un LOW.
