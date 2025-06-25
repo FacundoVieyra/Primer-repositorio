@@ -44,7 +44,7 @@ void setup(){
     pinMode (ledVerdePeatones, OUTPUT);
     pinMode (ledRojoPeatones, OUTPUT);
     // Configuración del pin del boton como entrada 
-    pinMode (botonPeaton, INPUT_PULLUP);
+    pinMode (botonPeaton, INPUT);
 
 //Comunicación serial para debug
     Serial.begin(9600);
